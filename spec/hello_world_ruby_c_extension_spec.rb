@@ -4,6 +4,6 @@ RSpec.describe HelloWorldRubyCExtension do
   end
 
   it "has a hello world interface that returns hello world" do
-    expect(HelloWorldRubyCExtension.new.hello_world).to eq("hello world")
+    expect(HelloWorldRubyCExtension.text).to eq("hello world")
   end
 end
