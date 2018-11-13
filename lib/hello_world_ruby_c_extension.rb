@@ -8,4 +8,8 @@ module HelloWorldRubyCExtension
   def self.length
     HelloWorldC.length
   end
+
+  def self.hello_world?(str)
+    HelloWorldC.hello_world?(str)
+  end
 end
