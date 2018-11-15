@@ -6,7 +6,7 @@ RSpec.describe HelloWorldRubyCExtension do
   end
 
   describe ".length" do
-    it "returns hello world" do
+    it "returns 'hello world' string length" do
       expect(HelloWorldRubyCExtension.length).to eq(11)
     end
   end
